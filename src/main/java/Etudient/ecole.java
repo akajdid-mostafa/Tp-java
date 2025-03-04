@@ -1,4 +1,8 @@
 package Etudient;
 
-public class Ecole {
+public class ecole {
+
+    private Integer idecole;
+    private String nom;
+
 }
