@@ -59,13 +59,5 @@ public class partisaid {
         this.age = age;
     }
 
-    @Override
-    public String toString() {
-        return "etudiant{" +
-                "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", prenom='" + prenom + '\'' +
-                ", age=" + age +
-                '}';
-    }
+
 }
