@@ -25,7 +25,7 @@ public class App {
             em.persist(etudiant1);
             em.persist(etudiant2);
 
-            em.persist(ecole1); // L'école et ses étudiants seront ajoutés à la base de données
+            em.persist(ecole1);
 
             em.getTransaction().commit();
 

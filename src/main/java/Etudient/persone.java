@@ -3,7 +3,6 @@ package Etudient;
 import javax.persistence.*;
 
 @Entity
-//@Table(name="etudiant")
 public class persone {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -21,7 +20,6 @@ public class persone {
         this.age = age;
     }
 
-    //Getters st Setters
 
     public int getId() {
         return id;
