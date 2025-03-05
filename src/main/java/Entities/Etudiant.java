@@ -11,9 +11,10 @@ public class Etudiant {
     private String nom;
     private String prenom;
     private int age;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="idEcole")
-    private Ecole ecole;
+    Ecole ecole;
+
 
     public Etudiant() {
     }
