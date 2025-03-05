@@ -11,11 +11,7 @@ public class Test1 {
         Ecole ecole = new Ecole("fsts","hkl");
         Etudiant etudiant = new Etudiant("najwa","moukh",20,ecole);
 
-
-
         em.getTransaction().begin();
-        //em.persist(ecole);
-        //em.persist(etudiant);
         em.find(Etudiant.class, etudiant.getId());
         em.getTransaction().commit();
     }
