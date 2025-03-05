@@ -19,12 +19,4 @@ public class partisaid {
     private String prenom;
     private int age;
 
-
-    public partisaid() {
-    }
-
-
-
-
-
 }
